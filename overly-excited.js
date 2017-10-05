@@ -15,7 +15,7 @@ function addExcitement (theWordArray, character) {
         for (let index = 0; index < theWordArray.length; index++) {
             let word = theWordArray[index];
             /* Determine if The remainder of WordCount is equal to 0 to add exclamation points (every 3rd word)*/
-            if ((wordCount % 4) === 0) {
+            if ((wordCount % 3) === 0) {
                 /* Determine the amount of exclamation points needed by dividing 3 by wordCount */
                 let exclamationCount = (3/wordCount)
                 /* loop through to create the number of characters needed */
